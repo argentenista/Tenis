@@ -8,9 +8,9 @@ library(data.table)
 
 anios  <- (1968:2021)
 
-'En la línea siguientes, estamos guardando todas las rutas de los archivos que queremos cargar y por último se cargan en la variable "datos" que formalmente es un "dataframe" y que es como una tabla gigante de datos'
+'En la línea siguientes, estamos guardando todas las rutas de los archivos que queremos cargar y por último se cargan en la variable "datos" que formalmente es un "dataframe" y que es como una tabla gigante de datos. Es muy importante que en la primera linea tengan en cuenta y respeten la ubicación de los archivos de la base de datos en la compu de ustedes.'
 
-archivos <- paste0("C:/Users/paula/Mi unidad/Tenis/Estadisticas/Datos/tennis_atp/atp_matches_", anios, ".csv")
+archivos <- paste0("C:/Users/argentenista/Mi unidad/Tenis/Estadisticas/Datos/tennis_atp/atp_matches_", anios, ".csv")
 lista_archivos <- lapply(archivos, function(m) df <- fread(m, na="", quote=F, fill = TRUE))
 datos <- do.call("rbind", lista_archivos)
 
