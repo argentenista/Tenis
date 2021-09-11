@@ -1,4 +1,4 @@
-'Recorda que lo primero es cargar las bases de datos. Hay un archivo que explica paso a paso eso. Acá lo pongo sin explicación'
+'Recorda que lo primero es cargar las bases de datos. Hay un archivo que explica paso a paso eso. Acá lo pongo sin explicación.'
 
 
 library(data.table)
