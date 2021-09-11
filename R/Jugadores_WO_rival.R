@@ -3,7 +3,7 @@
 
 library(data.table)
 anios  <- (1968:2021)
-archivos <- paste0("C:/Users/argentenista/Mi unidad/Tenis/Estadisticas/tennis_wta/wta_matches_", anios, ".csv")
+archivos <- paste0("C:/Users/argentenista/Mi unidad/Tenis/Estadisticas/tennis_atp/atp_matches_", anios, ".csv")
 lista_archivos <- lapply(archivos, function(m) df <- fread(m, na="", quote=F, fill = TRUE))
 datos <- do.call("rbind", lista_archivos)
 
