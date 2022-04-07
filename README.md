@@ -14,6 +14,8 @@ Cuál elijo? Si no conoces ninguna, elegí la que te resulte más fácil.
 Si tenes experiencia programando, sobre todo con R y Python te aconsejo saltear los primeros pasos que explican sobre instalación de software.
 
 Cualquier duda pueden enviarme a mi correo: argentenista@gmail.com o mi cuenta de twitter: www.twitter.com/argentenista
+
+Me gusta el tenis!
  
 
 
