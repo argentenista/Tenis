@@ -1,3 +1,4 @@
+# si las librearias no estan instaladas se installan poniendo: install.packages("ggplot2") y luego install.packages("reshape2")
 library(ggplot2)
 library(reshape2)
 
